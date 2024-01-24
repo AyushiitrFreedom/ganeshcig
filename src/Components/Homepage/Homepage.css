@@ -1,0 +1,24 @@
+ body{
+    overflow-x: hidden;
+ }
+.collab {
+    width: 100vw;
+    height: 60vh;
+    padding: 2vh 2vw 2vh 2vw; 
+}
+
+.textdiv {
+    font-size: 2vw;
+    width: 100%;
+    height: 15%;
+    padding-bottom: 5%;
+}
+
+@media (max-width:500px) {
+    /* .carouselbox {
+        height: 60vh;
+    } */
+    .collab{
+        height: 50vmax;
+    }
+}

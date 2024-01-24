@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+body {
+  margin: 0%;
+  padding: 0%;
+}
+
+.HomepageContainer {
+  width: 100vw;
+  height: 108vh;
+  display: flex;
+  padding-top: 8vh;
+}
+.HomepageContainerBox{
+  width: 100%;
+  height: 100%;
+}
+.Homepage-col1page1 {
+  width: 70%;
+  height: 100%;
+  position: absolute;
+  z-index: 1;
+  padding: 5% 7%;
+}
+
+.Homepage-headingpage1 {
+width: 100%;
+  height: 15%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-top: 10vh;
+
+  a {
+    text-decoration: none;
+  }
+}
+
+.Homepage-containtpage1 {
+  color: #3C4DC2;
+  font-family: Roboto;
+  font-size: 3vmax;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 121.687%;
+
+  h1 {
+    color: #167c06;
+    font-family: Roboto;
+    font-size: 3vmax;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 121.687%;
+    display: inline;
+  }
+}
+
+.Homepage-containtpage2 {
+  color: #595B5F;
+  font-family: Inter;
+  font-size: 1.5vmax;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 135%;
+
+  /* 37.8px */
+  strong {
+    color: #323232;
+    font-family: Inter;
+    font-size: 1.5vmax;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 135%;
+    /* 37.8px */
+    text-transform: uppercase;
+  }
+}
+
+.HomepageBTN {
+  border-radius: 4px;
+  background: #3C4DC2;
+  display: flex;
+  padding: 14px 40px;
+  align-items: flex-start;
+  gap: 10px;
+  border: 0;
+  color: #FFF;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 121.687%;
+  /* 21.904px */
+  margin-top: 7%;
+}
+
+.Homepage-col2page1 {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  z-index: 0;
+}
+
+.page1bg {
+  width: 100%;
+  height: 100%;
+}
+/* @media screen and (max-width:900px){
+  .Homepage-col1page1 {
+    padding: 15% 7%;
+  }
+} */
+
+@media screen and (max-width:680px) {
+   .HomepageContainer {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+  }
+  .HomepageContainerBox{
+    width: 100%;
+    height: 100%;
+  }
+  .Homepage-col1page1 {
+    width: 80%;
+    height: 60%;
+  }
+
+  .Homepage-col2page1 {
+    width: 100%;
+    height: 100%;
+  }
+
+  .Homepage-headingpage1 {
+    width: 100%;
+    height: 12%;
+  } 
+
+  .Homepage-containtpage1 {
+    font-size: 4vmax;
+
+    h1 {
+      font-size: 4vmax;
+    }
+  } 
+
+  .Homepage-containtpage2 {
+    font-size: 2vmax;
+
+    strong {
+      font-size: 2vmax;
+    }
+  } 
+
+  .HomepageBTN {
+    padding: 1.5vmax 2.5vmax;
+    font-family: Inter;
+    font-size: 1.5vmax;
+  }
+  .Homepage-headingpage1 {
+    
+    height: 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  
+    a {
+      text-decoration: none;
+    }
+  } 
+}
+
+@media screen and (max-width:430px) {
+
+  .Homepage-containtpage1 {
+    font-size: 3vmax;
+
+    h1 {
+      font-size: 3vmax;
+    }
+  }
+
+  .Homepage-containtpage2 {
+    font-size: 1.5vmax;
+
+    strong {
+      font-size: 1.5vmax;
+    }
+  }
+} 
+
+@media screen and(max-width:400px) {
+  .Homepage-containtpage1 {
+    font-size: 1.5vmax;
+
+    h1 {
+      font-size: 1.5vmax;
+    }
+  }
+
+  .Homepage-containtpage2 {
+    font-size: 1vmax;
+
+    strong {
+      font-size: 1vmax;
+    }
+  }
+  .Homepage-col1page1 {
+    width: 100%;
+  }
+  
+}
+
+/* @media screen and (max-width:320px) {
+
+  .Homepage-containtpage1 {
+    font-size: 2vmax;
+
+    h1 {
+      font-size: 2vmax;
+    }
+  }
+
+  .Homepage-containtpage2 {
+    font-size: 1vmax;
+
+    strong {
+      font-size: 1vmax;
+    }
+  }
+}  */
+/* 
+@media screen and (max-width:488px) {
+
+  .Homepage-containtpage1 {
+    font-size: 1.6vmax;
+
+    h1 {
+      font-size: 1.6vmax;
+    }
+  }
+
+  .Homepage-containtpage2 {
+    font-size: 1vmax;
+
+    strong {
+      font-size: 1vmax;
+    }
+  }
+
+  .HomepageBTN {
+    padding: 1vmax 2vmax;
+    font-family: Inter;
+    font-size: 1vmax;
+  }
+} */
+
+
+

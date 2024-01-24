@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+.ABT-page1box {
+    width: 100vw;
+    height: 100vh;
+    padding: 10% 10% 5% 10%;
+}
+
+.ABT-Boxcontainer {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.ABT-BoxCol1 {
+    width: 50%;
+    height: 100%;
+}
+
+.ABT-BoxCol2 {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+    img {
+        width: 60%;
+        height: 80%;
+    }
+}
+
+.ABT-textcomponent {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding-top: 10%;
+}
+
+.ABT-titleline {
+    color: #3C4DC2;
+    font-family: Inter;
+    font-size: 3vmax;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 121.687%;
+    /* 48.675px */
+}
+
+.ABT-titlecomp {
+    color: #323232;
+    font-family: Inter;
+    font-size: 1vmax;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 135%;
+    /* 27px */
+    text-transform: uppercase;
+}
+
+.ABT-containt {
+    color: #595B5F;
+    font-family: Inter;
+    font-size: 1vmax;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 135%;
+    /* 24.3px */
+}
+
+.About-Section-page2 {
+    width: 100vw;
+    height: 60vh;
+}
+
+.ABT-aboutpage2 {
+    width: 95%;
+    height: 100%;
+    background: #F4F4F4;
+    padding: 5% 0 5% 0;
+    border-radius: 16px;
+    box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.25);
+    margin: auto;
+}
+
+.ABT-underpage2 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.ABT-col1 {
+    width: 20%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#imgabout {
+    width: 30%;
+    height: 20%;
+}
+
+
+@media (max-width:1024px) {
+    .ABT-page1box {
+        width: 100vw;
+        height: 50vh;
+        padding: 10% 10% 5% 10%;
+    }
+
+    .ABT-BoxCol1 {
+        width: 60%;
+        height: 100%;
+    }
+
+    .ABT-BoxCol2 {
+        width: 40%;
+
+        img {
+            width: 70%;
+        }
+    }
+
+    .About-Section-page2 {
+        width: 100vw;
+        height: 60vh;
+        padding: 5% 2% 5% 2%;
+    }
+
+    .ABT-col1 {
+        width: 30%;
+    }
+}
+
+
+@media (max-width:600px) {
+
+    .ABT-page1box {
+        height: 45vh;
+    }
+
+    .ABT-BoxCol2 {
+        display: none;
+    }
+
+    .ABT-titleline {
+        font-size: 32px;
+        line-height: 100.687%;
+    }
+
+    .ABT-BoxCol1 {
+        width: 100%;
+        height: 100%;
+    }
+
+    .ABT-textcomponent {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-top: 5vh;
+
+    }
+
+    .ABT-titlecomp {
+        font-size: 16px;
+        line-height: 125%;
+    }
+
+    .ABT-containt {
+        font-size: 15px;
+        line-height: 125%;
+    }
+    .About-Section-page2{
+        width: 100vw;
+        height: 150vh;
+        background: #F4F4F4;
+        padding: 5%;
+    }
+    .ABT-aboutpage2 {
+        width: 100%;
+        height: 100%;
+        background: #F4F4F4;
+        padding: 5% 0 5% 0;
+        border-radius: 0;
+        box-shadow:none;
+        margin: auto;
+    }
+    .ABT-underpage2 {
+        width: 100%;
+        height: 90%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .ABT-col1 {
+        width: 100%;
+        height: 30%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        
+    }
+
+    #imgabout {
+        width: 15%;
+        height: 15%;
+    }
+    .ABT-titleline {
+        font-size: 25px;
+    }
+
+    .ABT-titlecomp {
+        font-size: 10px;
+    }
+
+    .ABT-containt {
+        font-size: 10px;
+    }
+}

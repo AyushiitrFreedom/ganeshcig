@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+.Eventbox {
+    width: 99vw;
+    height: 70vh;
+}
+
+.Eventcontainer {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    padding: 10% 5% 5% 5%;
+    gap: 1%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.EventCol1 {
+    width: 45%;
+    height: 85%;
+}
+
+.EventBoxCol2 {
+    width: 30%;
+    height: 85%;
+    right: 0%;
+
+}
+
+
+.Event-containt {
+    color: #595B5F;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 135%;
+    /* 24.3px */
+}
+
+.Event-titleline {
+    color: #3C4DC2;
+    font-family: Inter;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 121.687%;
+    /* 48.675px */
+}
+
+.Eventpng {
+    width: 100%;
+    height: 100%;
+}
+
+@media (max-width:1280px) {
+    .Eventbox {
+        width: 100vw;
+    }
+}
+
+@media (max-width:600px) {
+    .Eventbox {
+        height: 40vh;
+    }
+
+    .Eventcontainer {
+        padding: 10% 2.5% 2.5% 2.5%;
+    }
+
+    .EventCol1 {
+        width: 100%;
+        height: 100%;
+    }
+
+    .Event-textcomponent {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+        padding-top: 10vh;
+
+    }
+
+    .EventBoxCol2 {
+        display: none;
+
+    }
+
+    .Event-containt {
+        width: 100%;
+        height: 100%;
+        color: #595B5F;
+        font-family: Inter;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 135%;
+        /* 24.3px */
+    }
+
+}
